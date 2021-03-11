@@ -1,0 +1,122 @@
+body { margin:0; }
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+.menu {
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin-left: 122px;
+}
+.logo {
+    font-size: 24px;
+    width: 697px;
+}
+.menu a {
+    padding: 48px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    width: 175px;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #5C5C5C;
+    height: 25px;
+}
+.left {
+    width: 40%;
+    float: left;
+    margin-left: 122px;
+    margin-top: 122px;
+    height: 511px;
+}
+.title {
+    color: #EFC3AA;
+    font-size: 48px;
+}
+.hero {
+    width: 50%;
+    float: right;
+}
+.hero img {
+    width: 718px;
+    height: 937px;
+}
+.highlight {
+    height: 644px;
+    background-color: #EAE6E2;
+    width: 100%;
+    position: absolute;
+    top: 937px;
+}
+.reelTitle {
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-left: 122px;
+    display: inline-block;
+}
+.links {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: 'Bebas Neue', cursive;
+    top: 1641px;
+    width: 100%;
+}
+.links a {
+    padding: 10px 40px;
+    margin-top: -60px;
+    text-decoration: none;
+    color: black;
+}
+#cardGrid {
+    margin-left: 122px;
+    align-items: center;
+    display: grid;
+    min-height: 300px;
+    height: 437px;
+    grid-template-rows: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "card1 card2 card3"
+}
+#card1 {
+    grid-area: card1;
+}
+#card2 {
+    grid-area: card2;
+}
+#card3 {
+    grid-area: card3;
+}
+#cardGrid p {
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#cardGrid h1 {
+    font-size: 36px;
+    height: 60px;
+}
+#cardGrid a {
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: #EAAB87;
+    font-size: 18px;
+}
+.and {
+    color: #5C5C5C;
+}
